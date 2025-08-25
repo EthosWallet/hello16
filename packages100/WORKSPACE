@@ -1,0 +1,8 @@
+workspace(name = "acme_leaf")
+
+# Dummy external dependency reference
+http_archive(
+    name = "acme_leaf_pkg1234567",
+    urls = ["https://example.com/acme-leaf-pkg.tar.gz"],
+    strip_prefix = "acme-leaf-pkg",
+)
