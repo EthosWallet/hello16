@@ -1,0 +1,12 @@
+{
+  "name": "acme/mid",
+  "require": {
+    "acme/mid-pkg": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../packages100"
+    }
+  ]
+}
