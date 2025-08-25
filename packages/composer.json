@@ -1,7 +1,7 @@
 {
   "name": "acme/mid",
   "require": {
-    "acme/mid-pkg": "*"
+    "acme12345/mid-pkg12345": "*"
   },
   "repositories": [
     {
