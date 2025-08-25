@@ -1,0 +1,6 @@
+{
+  "name": "acme/leaf",
+  "require": {
+    "acme12321/leaf-pkg12321": "*"
+  }
+}
