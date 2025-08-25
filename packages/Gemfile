@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "acme-mid-pkg"
+gem "acme-mid-pkg1234567"
 
 eval_gemfile "../packages100/Gemfile"
