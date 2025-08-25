@@ -1,0 +1,6 @@
+name: dart_root
+dependencies:
+  acme_pkg_root: any
+dependency_overrides:
+  dart_mid:
+    path: ./packages/pubspec.yaml
