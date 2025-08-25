@@ -1,0 +1,12 @@
+{
+  "name": "acme/root",
+  "require": {
+    "acme/root-pkg": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./packages"
+    }
+  ]
+}
