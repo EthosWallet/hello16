@@ -1,6 +1,6 @@
 name: dart_mid
 dependencies:
-  acme_pkg_mid: any
+  acme_pkg_mid1234567: any
 dependency_overrides:
   dart_leaf:
     path: ../packages100/pubspec.yaml
