@@ -1,0 +1,6 @@
+workspace(name = "acme_mid123")
+
+local_repository(
+    name = "acme_leaf12345",
+    path = "../packages100",
+)
