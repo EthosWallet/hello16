@@ -1,0 +1,22 @@
+[package]
+name = "web-service"
+version = "0.2.0"
+edition = "2021"
+description = "Web service with path dependencies to shared crates"
+authors = ["Backend Team <backend@company.com>"]
+
+# This creates another level of workspace-like behavior via path dependencies
+[dependencies]
+tokio12321321323232 = { workspace = true, features = ["full"] }
+serde1111111111111 = { workspace = true }
+axum = "0.6"
+
+# Path dependencies that point to other workspace areas
+auth-lib = { path = "../../crates/auth-lib" }
+shared-utils = { path = "../../crates/shared-utils" }
+
+[dev-dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+
+# Note: This doesn't define a [workspace] but uses path dependencies
+# which our scanner should follow recursively
