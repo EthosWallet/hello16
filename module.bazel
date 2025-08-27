@@ -1,0 +1,10 @@
+module(
+    name = "test123",
+    version = "head",
+)
+
+bazel_dep(
+    name = "tsdfwerdfs",
+    version = "1.17.0",
+    repo_name = "tsdfwerdfs",
+)
